@@ -1,9 +1,5 @@
-// Compile this file on alpha.cs.iit.edu with gcc -lm Lab00_sample.c
-
 // CS 350, Spring 2014
 // Lab 0: Basic C Programming
-//
-// Illinois Institute of Technology, (c) 2014, James Sasaki
 
 #include <stdio.h>  // to access printf, scanf
 
@@ -31,14 +27,14 @@ int main() {
   char *string3 = "This is a string";
   char *empty2 = "";
   printf("%s\n", string3);
-  printf("empty2 ->%s<-empty2\n", empty1);
+  printf("empty2 ->%s<-empty2\n", empty2);
   
   // Use the %d format code to print an integer; use %f for a floating-
   // point or double precision number.
   // 
   int x = 17;
   double d = sqrt(x);
-  printf("The square root of %d = %f\n", x, d);
+  printf("The square root of %05d = %.4f\n", x, d);
 
   // To read into a variable of basic type (e.g., int, double, char),
   // use the same format codes as for printf, but insert an ampersand
