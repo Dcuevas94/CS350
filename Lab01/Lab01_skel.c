@@ -24,7 +24,7 @@ int main() {
 	// Print out the sum, the division we're performing, and the result (without truncation)
 	// E.g., The sum of the array is 25; 25/2 = 12.500000
 	//
-	printf("The sum of the array is %d; %d/%d = %.5d\n", sum, sum, x, sum/x);
+	printf("The sum of the array is %d; %d/%d = %.5f\n", sum, sum, x, (sum/x));
 		
 	// Declare an integer variable y and initialize it using a hexadecimal constant.
 	// Print y in decimal, hex, and with leading zeros so that we get the output
