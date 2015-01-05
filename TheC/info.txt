@@ -1,0 +1,3 @@
+Learning C in 21 Days
+=====================
+All excercises for the "Sam's teach yourslef C in 21 days" book will be saved here because it's the last week of winter break and I want to run through this in 2 days continously.... Lindsey Sterling shall help me through this.
